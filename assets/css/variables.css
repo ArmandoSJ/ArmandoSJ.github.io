@@ -25,9 +25,12 @@
     --backdrop-filter-blur: blur(5px);
 
     /*========== Font weight ==========*/
-    --font-semi-bold: 600;
+    --big-font-size: 2rem;
+    --h3-font-size: 1.125rem;
+    --font-semi-bold: 400;
+    --font-medium: 500;
     --normal-font-size: .938rem;
-    
+
     /*========== Margenes Bottom ==========*/
     --mb-0-75: .75rem;
     --mb-1: 1rem;
