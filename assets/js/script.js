@@ -4,7 +4,6 @@ const navMenu = document.getElementById('nav-menu'),
       navClose = document.getElementById('nav-close');
 
 /*===== MENU SHOW =====*/
-/* Validate if constant exists */
 if(navToggle){
   navToggle.addEventListener('click', () => {
     navMenu.classList.add('show-menu');
@@ -12,7 +11,6 @@ if(navToggle){
 }
 
 /*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
 if(navToggle){
   navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu');
@@ -29,7 +27,7 @@ function linkAction(){
 }
 navLink.forEach(elem => elem.addEventListener('click', linkAction));
 
-
+/*===== theme =====*/
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
 const iconTheme = 'uil-sun';

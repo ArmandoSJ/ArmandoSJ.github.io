@@ -26,7 +26,8 @@
 
     /*========== Font weight ==========*/
     --font-semi-bold: 600;
-
+    --normal-font-size: .938rem;
+    
     /*========== Margenes Bottom ==========*/
     --mb-0-75: .75rem;
     --mb-1: 1rem;
