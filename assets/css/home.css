@@ -88,6 +88,10 @@ section{
     align-items: center;
 }
 
+.hidden{
+    display: none !important;
+}
+
 /* Custom Scrollbar*/
 ::-webkit-scrollbar{
     width: 5px;
@@ -102,6 +106,12 @@ section{
 }
 
 /* Buttoms*/
+
+button{
+    font-family: inherit;
+    user-select: none;
+}
+
 .btn{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
