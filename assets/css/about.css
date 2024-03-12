@@ -22,6 +22,7 @@
 .about-text{
   width: 60%;
   padding: 0 15px;
+  text-align: justify;
 }
 
 .about-img .img-box{
