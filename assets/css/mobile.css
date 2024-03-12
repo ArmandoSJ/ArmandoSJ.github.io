@@ -1,0 +1,47 @@
+@media(max-width: 991px){
+    .container{
+        padding: 0;
+    }
+
+    .home__text,
+    .home__image{
+        width: 100%;
+    }
+
+    .home__text{
+        text-align: center;
+    }
+
+    .home__image{
+        order: -1;
+    }
+
+    .home__image .image__box{
+        max-width: 300px;
+    }
+
+    .home__text .btn{
+        margin: 0 7px 15px;
+    }
+}
+
+@media(max-width: 767px){
+    .about-img,
+    .about-text{
+        width: 100%;
+    }
+
+    .about-text{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 575px){
+    .home__text h1{
+        font-size: 30px;
+    }
+
+    .home__text h2{
+        font-size: 18px;
+    }
+}
