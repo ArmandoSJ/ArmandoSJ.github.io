@@ -1,6 +1,6 @@
 {
     "es": {
-      "title": "Hola, Soy Jose Armando",
+      "title": "Hola, Soy Armando",
       "subtitle": "Desarrollador de Software",
       "description": "Soy un friki del software con habilidades para codificar, diseñar y todo lo relacionado con Agile (especialmente Scrum). Ya sea metiéndome en nuevos proyectos o jugueteando con código existente, traigo una mezcla de creatividad y atención al detalle. A menudo me encontrarás perdido en el mundo del debugging, creando soluciones libres de errores mientras sorbo cantidades copiosas de café. Estoy en busca de una empresa tecnológica divertida donde pueda desatar mi magia con el código y ser parte de algo increíble.",
       "menu": {
@@ -71,7 +71,7 @@
       }
     },
     "en": {
-      "title": "Hello, I'm Jose Armando",
+      "title": "Hello, I'm Armando",
       "subtitle": "Software Developer",
       "description": "I'm a software geek with a knack for coding, design, and all things Agile (especially Scrum). Whether I'm diving into new projects or tinkering with existing code, I bring a blend of creativity and attention to detail. You'll often find me lost in the world of debugging, crafting error-free solutions while sipping on copious amounts of coffee. I'm on the lookout for a fun tech company where I can unleash my coding wizardry and be part of something awesome.",
       "menu":{
