@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <title>My Profile</title>
+    <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <!--==================== HEADER ====================-->
@@ -19,12 +20,12 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link link-item">
                 <i class="uil uil-home nav__icon"></i> <span id="home"></span>
               </a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">
+              <a href="#about" class="nav__link link-item">
                 <i class="uil uil-user nav__icon"></i> <span id="about"></span>
               </a>
             </li>
@@ -51,15 +52,15 @@
 
     <!--==================== MAIN ====================-->
     <div class="main">
-      <section class="home__section align-items-center">
+      <section class="home__section align-items-center" id="home-sec">
         <div class="home__container container">
           <div class="row align-items-center">
             <div class="home__text">
               <h1 class="home__title" id="title"></h1>
                 <h3 class="home__subtitle" id="subtitle"></h3>
                 <p class="home__description" id="description"></p>
-              <a href="#" class="btn" id="about-me-btn"></a>
-              <a href="#" class="btn" id="download-btn"></a>
+              <a href="#about" class="btn link-item" id="about-me-btn"></a>
+              <a href="assets/docs/cv.pdf" target="_blank" class="btn" id="download-btn"></a>
             </div>
             <div class="home__image">
               <div class="image__box">
@@ -83,7 +84,7 @@
         </div>
       </section>
 
-      <section  class="about__section sec__padding hidden">
+      <section  class="about__section sec__padding hidden" id="about-sec">
         <div class="container">
           <div class="row">
             <div class="section__title">
@@ -118,7 +119,7 @@
                 </div>
               </div>
 
-              <a href="#" class="btn" id="download-btn">Download CV</a>
+              <a href="assets/docs/cv.pdf" target="_blank" class="btn" id="download-btn">Download CV</a>
 
             </div>
           </div>

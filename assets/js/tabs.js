@@ -19,3 +19,25 @@ tabsContainer.addEventListener("click", (event) => {
   // Mostrar la nueva pestaña de contenido
   aboutSection.querySelector(target).classList.add("active");
 });
+
+
+const homeLink = document.querySelector('.nav__link[href="#home"]');
+const aboutLink = document.querySelector('.nav__link[href="#about"]');
+const homeSection = document.getElementById('home-sec');
+const about = document.getElementById('about-sec');
+const aboutMeButton = document.getElementById('about-me-btn');
+
+homeLink.addEventListener('click', () => {
+  about.classList.add('hidden');
+  homeSection.classList.remove('hidden');
+});
+
+aboutLink.addEventListener('click', () => {
+  homeSection.classList.add('hidden');
+  about.classList.remove('hidden');
+});
+
+aboutMeButton.addEventListener('click', () => {
+  homeSection.classList.add('hidden');
+  aboutSection.classList.remove('hidden');
+});
