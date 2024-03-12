@@ -20,17 +20,12 @@
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link">
-                <i class="uil uil-home nav__icon"></i> Home
+                <i class="uil uil-home nav__icon"></i> <span id="home"></span>
               </a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                <i class="uil uil-user nav__icon"></i> <span id="about"></span>
               </a>
             </li>
           </ul>
@@ -39,7 +34,13 @@
         </div>
 
         <div class="nav__btns">
+          <div class="language-tabs">
+            <button type="button" class="tab-language active" data-target="es">Es</button>
+            <label class="medium-light" style="font-size: 14px; pointer-events: none;">|</label>
+            <button type="button" class="tab-language " data-target="en">En</button>
+          </div>
           <i class="uil uil-moon change-theme" id="theme-button"></i>
+          
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -54,12 +55,11 @@
         <div class="home__container container">
           <div class="row align-items-center">
             <div class="home__text">
-              <h1 class="home__title">Hi, I'm Armando</h1>
-                <h3 class="home__subtitle">Backend Developer</h3>
-                <p class="home__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum maiores natus quaerat,
-                  vero mollitia fugiat temporibus consectetur ea consequuntur similique ipsum facere, iusto doloribus atque odit quas, possimus modi blanditiis.</p>
-              <a href="#" class="btn">More about me</a>
-              <a href="#" class="btn">portfolio</a>
+              <h1 class="home__title" id="title"></h1>
+                <h3 class="home__subtitle" id="subtitle"></h3>
+                <p class="home__description" id="description"></p>
+              <a href="#" class="btn" id="about-me-btn"></a>
+              <a href="#" class="btn" id="download-btn"></a>
             </div>
             <div class="home__image">
               <div class="image__box">
@@ -87,7 +87,7 @@
         <div class="container">
           <div class="row">
             <div class="section__title">
-              <h2>About me</h2>
+              <h2 id="aboutme-title"></h2>
             </div>
           </div>
           <div class="row">
@@ -95,72 +95,30 @@
               <img src="assets/image/about.png" alt="about img">
             </div>
             <div class="about-text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aperiam nesciunt! Officiis consequuntur,
-                eos modi consectetur quam nihil optio non iusto consequatur porro magnam molestiae
-                reprehenderit rerum nostrum. Cum, doloremque!</p>
-              <h3>Skills</h3>
+              <p id="long-description"></p>
+              <h3 id="skills-title"></h3>
               <div class="skills">
-                <div class="skill-item">Angular</div>
-                <div class="skill-item">Java</div>
-                <div class="skill-item">Docker</div>
-                <div class="skill-item">JavaScript</div>
-                <div class="skill-item">TypeScript</div>
-                <div class="skill-item">Oracle</div>
-                <div class="skill-item">Postgresql</div>
+
               </div>
 
               <div class="about-tabs">
-                <button type="button" class="tab-item active" data-target="#education">Education</button>
-                <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                <button type="button" class="tab-item active" data-target="#education"><span class="education-desc"></span></button>
+                <button type="button" class="tab-item" data-target="#experience"><span class="experience-desc"></span></button>
               </div>
 
               <!-- Education start -->
               <div class="tab-content active" id="education">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <span class="date">2013 - 2016</span>
-                    <h4>Bachelor of technology - <span>university</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, adipisci quasi numquam impedit ullam ratione praesentium.
-                      Iusto sequi quasi cumque, sint nulla enim tempore aut minus natus, saepe, quam pariatur.</p>
-                  </div>
-
-                  <div class="timeline-item">
-                    <span class="date">2013 - 2016</span>
-                    <h4>Bachelor of technology - <span>university</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, adipisci quasi numquam impedit ullam ratione praesentium.
-                      Iusto sequi quasi cumque, sint nulla enim tempore aut minus natus, saepe, quam pariatur.</p>
-                  </div>
-
-                  <div class="timeline-item">
-                    <span class="date">2013 - 2016</span>
-                    <h4>Bachelor of technology - <span>university</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, adipisci quasi numquam impedit ullam ratione praesentium.
-                      Iusto sequi quasi cumque, sint nulla enim tempore aut minus natus, saepe, quam pariatur.</p>
-                  </div>
+                <div class="timeline educationDiv">
                 </div>
               </div>
 
               <!-- Experience start -->
               <div class="tab-content" id="experience">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <span class="date"> 2013 - 2016</span>
-                    <h4> Backcend Developer <span>Jumapa</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum ipsa ab neque inventore
-                      molestias cumque eos? Voluptas, reprehenderit aperiam.</p>
-                  </div>
-
-                  <div class="timeline-item">
-                    <span class="date"> 2013 - 2016</span>
-                    <h4> Backcend Developer <span>Gluo</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum ipsa ab neque inventore
-                      molestias cumque eos? Voluptas, reprehenderit aperiam.</p>
-                  </div>
-
+                <div class="timeline experienceDiv">
                 </div>
               </div>
 
-              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn" id="download-btn">Download CV</a>
 
             </div>
           </div>
@@ -170,5 +128,6 @@
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/language.js"></script>
   </body>
 </html>

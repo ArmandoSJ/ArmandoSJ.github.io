@@ -17,6 +17,7 @@ body.dark-theme{
     font-size: 1.25rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
+    margin-left: var(--mb-1);
     cursor: pointer;
 }
 
@@ -125,6 +126,44 @@ body.dark-theme{
     bottom: 0;
 }
 
+/* Language Buttons */
+.language-tabs .tab-language{
+    
+    padding: 2px 0;
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: var(--blue-dark);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+  
+  
+.language-tabs .tab-language:last-child{
+    margin: 0;
+}
+  
+.language-tabs .tab-language::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--dark);
+}
+  
+.language-tabs .tab-language.active{
+    color: var(--dark);
+    opacity: 1;
+    cursor: auto;
+}
+
 /* For small devices */
 @media screen and (max-width: 350px) {
     .nav__container{
@@ -181,7 +220,8 @@ body.dark-theme{
     }
 
     .change-theme{
-        margin: 0;
+        margin-left: var(--mb-1);
+        
     }
 }
 

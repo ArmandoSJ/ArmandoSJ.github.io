@@ -1,0 +1,145 @@
+{
+    "es": {
+      "title": "Hola, Soy Jose Armando",
+      "subtitle": "Desarrollador de Software",
+      "description": "Soy un friki del software con habilidades para codificar, diseñar y todo lo relacionado con Agile (especialmente Scrum). Ya sea metiéndome en nuevos proyectos o jugueteando con código existente, traigo una mezcla de creatividad y atención al detalle. A menudo me encontrarás perdido en el mundo del debugging, creando soluciones libres de errores mientras sorbo cantidades copiosas de café. Estoy en busca de una empresa tecnológica divertida donde pueda desatar mi magia con el código y ser parte de algo increíble.",
+      "menu": {
+        "home":"Inicio",
+        "about":"Sobre mi"
+      },
+      "buttons": {
+        "cv": "Descargar CV",
+        "aboutme": "Mas sobre mi"
+      },
+      "aboutme":{
+        "aboutme-title":"Sobre me",
+        "long-description": "Soy un ingeniero de software con una amplia experiencia en programación orientada a objetos, diseño y metodología ágil (Scrum). Poseo la capacidad de trabajar tanto con código nuevo como existente, aportando creatividad y atención al detalle para desarrollar soluciones efectivas y eficientes con tolerancia cero a errores. Estoy deseoso de unirme a una empresa tecnológica donde pueda aprovechar al máximo mis habilidades técnicas.",
+        "skills-title":"Habilidades",
+        "about-tabs": {
+            "education":"Educacion",
+            "experience":"Experiencia"
+        },
+        "skills":{
+            "item1": "Angular",
+            "item2": "Java",
+            "item3": "Docker",
+            "item4": "JavaScript",
+            "item5": "TypeScript",
+            "item6": "Oracle",
+            "item7": "Postgresql"
+        },
+        "education": [
+            {
+                "period":"2012 - 2015",
+                "grade":"Técnico en Programación -",
+                "schoolName":"Centro de Bachillerato Tecnológico Industrial y de Servicios No. 198",
+                "schoolDesc":""
+            },
+            {
+                "period":"2015 - 2019",
+                "grade":"Ingeniería en Tecnologías de la información y comunicaciones - ",
+                "schoolName":"Tecnologico Nacional de Mexico Roque",
+                "schoolDesc":""
+            },
+            {
+                "period":"2013 - 2016",
+                "grade":"Curso Intensivo de Ingles Intermedio (B1) - ",
+                "schoolName":"Golden English",
+                "schoolDesc":""
+            }
+        ],
+        "experience": [
+            {
+                "period":"2017 - 2020",
+                "carrer":"Frontend Developer (Freelance) - ",
+                "company":"Technologyos",
+                "roleDesc":""
+            },
+            {
+                "period":"2013 - 2016",
+                "carrer":"Backcend Developer - ",
+                "company":"Jumapa",
+                "roleDesc":""
+            },
+            {
+                "period":"2021 - Present",
+                "carrer":"FullStack Developer - ",
+                "company":"Gluo",
+                "roleDesc":""
+            }
+        ]
+      }
+    },
+    "en": {
+      "title": "Hello, I'm Jose Armando",
+      "subtitle": "Software Developer",
+      "description": "I'm a software geek with a knack for coding, design, and all things Agile (especially Scrum). Whether I'm diving into new projects or tinkering with existing code, I bring a blend of creativity and attention to detail. You'll often find me lost in the world of debugging, crafting error-free solutions while sipping on copious amounts of coffee. I'm on the lookout for a fun tech company where I can unleash my coding wizardry and be part of something awesome.",
+      "menu":{
+        "home":"Home",
+        "about":"About"
+      },
+      "buttons": {
+        "cv": "Download CV",
+        "aboutme": "More about me"
+      },
+      "aboutme":{
+        "aboutme-title":"About me",
+        "long-description": "I am a software engineer with extensive experience in object-oriented programming, design, and agile methodology (Scrum). I possess the ability to work with both new and existing code, bringing creativity and attention to detail to develop effective and efficient solutions with zero tolerance for errors. I am eager to join a tech company where I can fully utilize my technical skills.",
+        "skills-title":"Skills",
+        "about-tabs": {
+            "education":"Education",
+            "experience":"Experience"
+        },
+        "skills":{
+            "item1":"Angular",
+            "item2":"Java",
+            "item3":"Docker",
+            "item4":"JavaScript",
+            "item5": "TypeScript",
+            "item6": "Oracle",
+            "item7": "Postgresql"
+        },
+        "education": [
+            {
+                "period":"2012 - 2015",
+                "grade":"Programming Technician -",
+                "schoolName":"Centro de Bachillerato Tecnológico Industrial y de Servicios No. 198",
+                "schoolDesc":""
+            },
+            {
+                "period":"2015 - 2019",
+                "grade":"Enginnering in Information and Communication Technologies - ",
+                "schoolName":"Tecnologico Nacional de Mexico Roque",
+                "schoolDesc":""
+            },
+            {
+                "period":"2013 - 2016",
+                "grade":"Intensive Intermediate English Course (B1) - ",
+                "schoolName":"Golden English",
+                "schoolDesc":""
+            }
+        ],
+        "experience": [
+            {
+                "period":"2017 - 2020",
+                "carrer":"Frontend Developer (Freelance) - ",
+                "company":"Technologyos",
+                "roleDesc":""
+            },
+            {
+                "period":"2013 - 2016",
+                "carrer":"Backcend Developer - ",
+                "company":"Jumapa",
+                "roleDesc":""
+            },
+            {
+                "period":"2021 - Present",
+                "carrer":"FullStack Developer - ",
+                "company":"Gluo",
+                "roleDesc":""
+            }
+        ]
+      }
+    }
+  }
+  
