@@ -26,7 +26,9 @@
             "item4": "JavaScript",
             "item5": "TypeScript",
             "item6": "Oracle",
-            "item7": "Postgresql"
+            "item7": "Postgresql",
+            "item8": "Mongo",
+            "item9": "Redis"
         },
         "education": [
             {
@@ -42,7 +44,7 @@
                 "schoolDesc":""
             },
             {
-                "period":"2013 - 2016",
+                "period":"2021 - 2022",
                 "grade":"Curso Intensivo de Ingles Intermedio (B1) - ",
                 "schoolName":"Golden English",
                 "schoolDesc":""
@@ -50,22 +52,22 @@
         ],
         "experience": [
             {
-                "period":"2017 - 2020",
-                "carrer":"Frontend Developer (Freelance) - ",
-                "company":"Technologyos",
-                "roleDesc":""
-            },
-            {
-                "period":"2013 - 2016",
-                "carrer":"Backcend Developer - ",
-                "company":"Jumapa",
-                "roleDesc":""
-            },
-            {
                 "period":"2021 - Present",
                 "carrer":"FullStack Developer - ",
                 "company":"Gluo",
-                "roleDesc":""
+                "roleDesc":"Responsable técnico del diseño, desarrollo y despliegue de nuevas funcionalidades a los portales de Fiesta Rewards y Fiesta Rewards Wallet para el grupo hotelero POSADAS. Encargado de generar la administración de contenido web en el CMS de Liferay, generación de capa de servicios REST para el consumo del API de LIferay DXP 7.0 manejo de Portlets y Actions para el desarrollo de nuevas funcionalidades de los portales. Utilizando Java, Liferay, Javascript, MySQL, Gradle, Apache Tomcat, Keycloak Git, GitHub y GitLab. tambien responsable de implementar pruebas unitarias y de integración para asegurar la calidad del código (jUnit 5). Además, fomenté y aplicé las mejores prácticas de desarrollo, participando activamente en la revisión del código y colaborando en procesos de integración continua. Mi experiencia incluye trabajar en el marco de metodologías ágiles como Scrum y SaFe, donde contribuí a una colaboración efectiva con los miembros del equipo y las partes interesadas. Esto me permitió comprender a fondo los requisitos del proyecto y garantizar su entrega exitosa. Tengo experiencia en la modificación y mejora de microservicios en Spring Boot utilizando programación reactiva para mejorar el rendimiento y el control de errores en los procesos de compra y pago de servicios. Además, he contribuido a la optimización de los servicios implementados de Redis dentro del sistema. asi como la creacion de nuvas funcionalidades utilizando GraalVM 11, Consul, Redis y Mongo."
+            },
+            {
+                "period":"2019 - 2021",
+                "carrer":"Backcend Developer - ",
+                "company":"Jumapa",
+                "roleDesc":"Desarrollé una aplicación interna para la gestión de pagos y servicios, incluyendo el control vehicular, utilizando Kotlin y Flutter. En este proyecto, apliqué patrones de diseño como MVC y MVVM para establecer una arquitectura sólida y fácilmente mantenible. Además, integré servicios de Firebase como Autenticación, Almacenamiento y Notificaciones Push para mejorar la funcionalidad y la seguridad de la aplicación. Para asegurar una arquitectura escalable y robusta, consumí microservicios desarrollados en Spring Boot, Go, y PHP, permitiendo una comunicación eficiente y flexible entre los distintos componentes del sistema. \n Además, participé en el desarrollo y la administración de funciones, paquetes, triggers, y en la optimización de consultas de bases de datos tanto en Oracle como en MySQL. Esto garantizó un rendimiento óptimo y una experiencia fluida para los usuarios finales."
+            },
+            {
+                "period":"2017 - 2020",
+                "carrer":"Frontend Developer (Freelance) - ",
+                "company":"Technologyos",
+                "roleDesc":"Como desarrollador frontend freelance, he tenido el privilegio de colaborar en diversos proyectos, aportando soluciones creativas y funcionales que transforman las ideas en experiencias digitales cautivadoras. Mi enfoque se centra en la construcción de interfaces de usuario intuitivas y receptivas, utilizando un conjunto de herramientas que incluyen HTML, Vaadin, Angular y SASS."
             }
         ]
       }
@@ -97,7 +99,9 @@
             "item4":"JavaScript",
             "item5": "TypeScript",
             "item6": "Oracle",
-            "item7": "Postgresql"
+            "item7": "Postgresql",
+            "item8": "Mongo",
+            "item9": "Redis"
         },
         "education": [
             {
@@ -113,7 +117,7 @@
                 "schoolDesc":""
             },
             {
-                "period":"2013 - 2016",
+                "period":"2021 - 2022",
                 "grade":"Intensive Intermediate English Course (B1) - ",
                 "schoolName":"Golden English",
                 "schoolDesc":""
@@ -121,22 +125,22 @@
         ],
         "experience": [
             {
-                "period":"2017 - 2020",
-                "carrer":"Frontend Developer (Freelance) - ",
-                "company":"Technologyos",
-                "roleDesc":""
-            },
-            {
-                "period":"2013 - 2016",
-                "carrer":"Backcend Developer - ",
-                "company":"Jumapa",
-                "roleDesc":""
-            },
-            {
                 "period":"2021 - Present",
                 "carrer":"FullStack Developer - ",
                 "company":"Gluo",
-                "roleDesc":""
+                "roleDesc":"Technical lead for the design, development, and deployment of new functionalities for the Fiesta Rewards and Fiesta Rewards Wallet portals within the POSADAS hotel group. Responsible for content management within the Liferay CMS, creation of REST service layers for consuming the Liferay DXP 7.0 API, and handling Portlets and Actions for implementing new portal functionalities. Utilizing Java, Liferay, JavaScript, MySQL, Gradle, Apache Tomcat, Keycloak, Git, GitHub, and GitLab. Also responsible for implementing unit and integration tests to ensure code quality (JUnit 5). Additionally, I promoted and applied best development practices, actively participating in code reviews and collaborating on continuous integration processes. My experience includes working within the framework of agile methodologies such as Scrum and SaFe, where I contributed to effective collaboration with team members and stakeholders. This allowed me to thoroughly understand project requirements and ensure its successful delivery. I also have experience in modifying and enhancing microservices in Spring Boot using reactive programming to improve performance and error control in service purchase and payment processes. Furthermore, I contributed to optimizing Redis services within the system and developed new functionalities using GraalVM 11, Consul, Redis, and Mongo."
+            },
+            {
+                "period":"2019 - 2021",
+                "carrer":"Backcend Developer - ",
+                "company":"Jumapa",
+                "roleDesc":"I developed an internal application for payment and service management, including vehicle control, using Kotlin and Flutter. In this project, I applied design patterns such as MVC and MVVM to establish a solid and easily maintainable architecture. Additionally, I integrated Firebase services such as Authentication, Storage, and Push Notifications to enhance the functionality and security of the application. To ensure a scalable and robust architecture, I consumed microservices developed in Spring Boot, Go, and PHP, enabling efficient and flexible communication between the various components of the system. \n Furthermore, I participated in the development and administration of functions, packages, triggers, and optimization of database queries both in Oracle and MySQL. This ensured optimal performance and a smooth experience for end users."
+            },
+            {
+                "period":"2017 - 2020",
+                "carrer":"Frontend Developer (Freelance) - ",
+                "company":"Technologyos",
+                "roleDesc":"As a freelance frontend developer, I have had the privilege of collaborating on various projects, contributing creative and functional solutions that transform ideas into captivating digital experiences. My focus revolves around building intuitive and responsive user interfaces, utilizing a toolkit that includes HTML, Vaadin, Angular, and SASS."
             }
         ]
       }
