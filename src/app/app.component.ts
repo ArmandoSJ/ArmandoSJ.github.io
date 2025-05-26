@@ -1,15 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './shared/header/header.component';
-import { HomeComponent } from './pages/home/home.component';
-import { AboutComponent } from './pages/about/about.component';
+import { TitleService } from '@core/services/title.service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, AboutComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [RouterOutlet],
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'profile';
+  private titleService = inject(TitleService);
+
+  ngOnInit(): void {
+    this.titleService.init()
+  }
 }
